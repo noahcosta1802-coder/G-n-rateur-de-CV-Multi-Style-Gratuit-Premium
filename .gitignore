@@ -1,0 +1,52 @@
+# ------------------------------
+# Fichiers systèmes
+# ------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ------------------------------
+# Éditeurs / IDE
+# ------------------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ------------------------------
+# Node / NPM (si jamais utilisé)
+# ------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ------------------------------
+# Fichiers temporaires / logs
+# ------------------------------
+*.log
+*.tmp
+*.temp
+
+# ------------------------------
+# Build / production
+# ------------------------------
+dist/
+build/
+.cache/
+
+# ------------------------------
+# Secrets / configuration
+# ------------------------------
+.env
+.env.local
+.env.*.local
